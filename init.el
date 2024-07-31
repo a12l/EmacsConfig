@@ -4,5 +4,6 @@
   :config
   (setopt inhibit-startup-screen t)
   (setopt initial-scratch-message nil)
+  (setopt cursor-type 'bar)
   (menu-bar-mode -1)
   (tool-bar-mode -1))
