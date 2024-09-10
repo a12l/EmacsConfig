@@ -1,4 +1,8 @@
-(defconst my-pkgs-dir (expand-file-name "./packages" (file-name-directory load-file-name)))
+(add-to-list 'load-path (expand-file-name "lib/borg" user-emacs-directory))
+
+(use-package borg
+  :config
+  (borg-initialize))
 
 (use-package emacs
   :config
