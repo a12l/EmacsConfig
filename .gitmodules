@@ -7,6 +7,9 @@
 [submodule "compat"]
 	path = lib/compat
 	url = git@github.com:a12l/compat.git
+[submodule "dash"]
+	path = lib/dash
+	url = git@github.com:/a12l/dash.el
 [submodule "emacsql"]
 	path = lib/emacsql
 	url = git@github.com:a12l/emacsql.git
@@ -17,3 +20,12 @@
 [submodule "llama"]
 	path = lib/llama
 	url = git@github.com:a12l/llama.git
+[submodule "magit"]
+	path = lib/magit
+	url = git@github.com:a12l/magit
+[submodule "transient"]
+	path = lib/transient
+	url = git@github.com:a12l/transient.git
+[submodule "with-editor"]
+	path = lib/with-editor
+	url = git@github.com:a12l/with-editor
