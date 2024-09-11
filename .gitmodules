@@ -1,6 +1,9 @@
 [submodule "agda2-mode"]
 	path = lib/agda2-mode
 	url = git@github.com:a12l/agda2-mode.git
+[submodule "auto-compile"]
+	path = lib/auto-compile
+	url = git@github.com:a12l/auto-compile
 [submodule "borg"]
 	path = lib/borg
 	url = git@github.com:a12l/borg.git
