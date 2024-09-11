@@ -4,6 +4,9 @@
   :config
   (borg-initialize))
 
+(use-package agda-input
+  :hook (text-mode . (lambda () (set-input-method "Agda"))))
+
 (use-package emacs
   :config
   (setopt inhibit-startup-screen t)

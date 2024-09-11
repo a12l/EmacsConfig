@@ -1,3 +1,6 @@
+[submodule "agda2-mode"]
+	path = lib/agda2-mode
+	url = git@github.com:a12l/agda2-mode.git
 [submodule "borg"]
 	path = lib/borg
 	url = git@github.com:a12l/borg.git
@@ -17,6 +20,9 @@
 [submodule "epkg"]
 	path = lib/epkg
 	url = git@github.com:a12l/epkg.git
+[submodule "filladapt"]
+	path = lib/filladapt
+	url = git@github.com:a12l/filladapt.git
 [submodule "llama"]
 	path = lib/llama
 	url = git@github.com:a12l/llama.git
