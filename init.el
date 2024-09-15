@@ -17,3 +17,10 @@
   (auto-save-visited-mode 1)
   (menu-bar-mode -1)
   (tool-bar-mode -1))
+
+(use-package wakib-keys
+  :bind
+  (:map wakib-keys-overriding-map
+	("C-q" . nil))
+  :config
+  (wakib-keys 1))

@@ -35,6 +35,9 @@
 [submodule "transient"]
 	path = lib/transient
 	url = git@github.com:a12l/transient.git
+[submodule "wakib-keys"]
+	path = lib/wakib-keys
+	url = git@github.com:a12l/wakib-keys
 [submodule "with-editor"]
 	path = lib/with-editor
 	url = git@github.com:a12l/with-editor
