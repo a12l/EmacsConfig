@@ -4,6 +4,9 @@
 [submodule "auto-compile"]
 	path = lib/auto-compile
 	url = git@github.com:a12l/auto-compile
+[submodule "avy"]
+	path = lib/avy
+	url = git@github.com:a12l/avy
 [submodule "borg"]
 	path = lib/borg
 	url = git@github.com:a12l/borg.git
@@ -20,6 +23,9 @@
 	path = lib/emacsql
 	url = git@github.com:a12l/emacsql.git
 	no-byte-compile = emacsql-pg.el
+[submodule "embark"]
+	path = lib/embark
+	url = git@github.com:a12l/embark
 [submodule "epkg"]
 	path = lib/epkg
 	url = git@github.com:a12l/epkg.git
