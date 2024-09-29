@@ -38,8 +38,14 @@
 (use-package embark)
 
 (use-package wakib-keys
-  :bind
-  (:map wakib-keys-overriding-map
-	("C-q" . nil))
   :config
-  (wakib-keys 1))
+  (wakib-keys 1)
+  (add-hook 'after-change-major-mode-hook 'wakib-update-major-mode-map)
+
+  (define-key wakib-keys-overriding-map (kbd "C-q") nil)
+  (define-key wakib-keys-overriding-map (kbd "M-j") nil)
+  (define-key wakib-keys-overriding-map (kbd "M-l") nil)
+  (define-key wakib-keys-overriding-map (kbd "M-i") nil)
+  (define-key wakib-keys-overriding-map (kbd "M-k") nil)
+  (define-key wakib-keys-overriding-map (kbd "M-u") nil)
+  (define-key wakib-keys-overriding-map (kbd "M-o") nil))
