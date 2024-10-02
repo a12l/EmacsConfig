@@ -13,9 +13,15 @@
 [submodule "closql"]
 	path = lib/closql
 	url = git@github.com:a12l/closql.git
+[submodule "company"]
+	path = lib/company
+	url = git@github.com:a12l/company-mode
 [submodule "compat"]
 	path = lib/compat
 	url = git@github.com:a12l/compat.git
+[submodule "dap-mode"]
+	path = lib/dap-mode
+	url = git@github.com:a12l/dap-mode
 [submodule "dash"]
 	path = lib/dash
 	url = git@github.com:/a12l/dash.el
@@ -29,18 +35,59 @@
 [submodule "epkg"]
 	path = lib/epkg
 	url = git@github.com:a12l/epkg.git
+[submodule "f"]
+	path = lib/f
+	url = git@github.com:a12l/f.el
 [submodule "filladapt"]
 	path = lib/filladapt
 	url = git@github.com:a12l/filladapt.git
+[submodule "flycheck"]
+	path = lib/flycheck
+	url = git@github.com:a12l/flycheck
+[submodule "ht"]
+	path = lib/ht
+	url = git@github.com:a12l/ht.el
+[submodule "hydra"]
+	path = lib/hydra
+	url = git@github.com:a12l/hydra
 [submodule "llama"]
 	path = lib/llama
 	url = git@github.com:a12l/llama.git
+[submodule "lsp-mode"]
+	path = lib/lsp-mode
+	url = git@github.com:a12l/lsp-mode
+[submodule "lsp-treemacs"]
+	path = lib/lsp-treemacs
+	url = git@github.com:a12l/lsp-treemacs
+[submodule "lsp-ui"]
+	path = lib/lsp-ui
+	url = git@github.com:a12l/lsp-ui
 [submodule "magit"]
 	path = lib/magit
 	url = git@github.com:a12l/magit
+[submodule "markdown-mode"]
+	path = lib/markdown-mode
+	url = git@github.com:a12l/markdown-mode
+[submodule "pfuture"]
+	path = lib/pfuture
+	url = git@github.com:a12l/pfuture
+[submodule "posframe"]
+	path = lib/posframe
+	url = git@github.com:a12l/posframe
+[submodule "s"]
+	path = lib/s
+	url = git@github.com:a12l/s.el
+[submodule "spinner"]
+	path = lib/spinner
+	url = git@github.com:a12l/spinner.el
 [submodule "transient"]
 	path = lib/transient
 	url = git@github.com:a12l/transient.git
+[submodule "treemacs"]
+	path = lib/treemacs
+	url = git@github.com:a12l/treemacs
+	load-path = src/elisp
+	load-path = src/extra
 [submodule "wakib-keys"]
 	path = lib/wakib-keys
 	url = git@github.com:a12l/wakib-keys

@@ -24,6 +24,9 @@
 
   (setf (alist-get ?. avy-dispatch-alist) 'avy-action-embark))
 
+(use-package company
+  :hook (prog-mode . company-mode))
+
 (use-package emacs
   :config
   (setopt inhibit-startup-screen t)
@@ -36,6 +39,19 @@
   (tool-bar-mode -1))
 
 (use-package embark)
+
+(use-package flycheck
+  :hook (prog-mode . flycheck-mode))
+
+(use-package lsp-mode
+  :init
+  (setq lsp-keymap-prefix "C-c l")
+  :commands lsp-deferred)
+
+(use-package lsp-ui)
+
+(use-package lsp-treemacs
+  :commands lsp-treemacs-errors-list)
 
 (use-package wakib-keys
   :config
