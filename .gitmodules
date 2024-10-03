@@ -44,6 +44,9 @@
 [submodule "flycheck"]
 	path = lib/flycheck
 	url = git@github.com:a12l/flycheck
+[submodule "haskell-mode"]
+	path = lib/haskell-mode
+	url = git@github.com:a12l/haskell-mode
 [submodule "ht"]
 	path = lib/ht
 	url = git@github.com:a12l/ht.el
@@ -53,6 +56,9 @@
 [submodule "llama"]
 	path = lib/llama
 	url = git@github.com:a12l/llama.git
+[submodule "lsp-haskell"]
+	path = lib/lsp-haskell
+	url = git@github.com:a12l/lsp-haskell
 [submodule "lsp-mode"]
 	path = lib/lsp-mode
 	url = git@github.com:a12l/lsp-mode
