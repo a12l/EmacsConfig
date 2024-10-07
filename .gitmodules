@@ -47,6 +47,9 @@
 [submodule "flycheck"]
 	path = lib/flycheck
 	url = git@github.com:a12l/flycheck
+[submodule "groovy-mode"]
+	path = lib/groovy-mode
+	url = git@github.com:a12l/groovy-emacs-modes
 [submodule "haskell-mode"]
 	path = lib/haskell-mode
 	url = git@github.com:a12l/haskell-mode

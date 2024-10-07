@@ -48,6 +48,8 @@
 (use-package flycheck
   :hook (prog-mode . flycheck-mode))
 
+(use-package groovy-mode)
+
 (use-package ligature
   :hook (after-init . global-ligature-mode)
   :config
