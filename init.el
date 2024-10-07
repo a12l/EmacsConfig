@@ -1,8 +1,6 @@
 (add-to-list 'load-path (expand-file-name "lib/borg" user-emacs-directory))
-
-(use-package borg
-  :config
-  (borg-initialize))
+(require 'borg)
+(borg-initialize)
 
 (use-package bqn-mode)
 
