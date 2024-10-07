@@ -69,6 +69,10 @@
 (use-package nix-mode
   :mode "\\.nix\\'")
 
+(use-package org
+  :config
+  (setq org-support-shift-select 'always))
+
 (use-package wakib-keys
   :config
   (wakib-keys 1)
