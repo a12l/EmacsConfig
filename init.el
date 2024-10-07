@@ -4,6 +4,8 @@
   :config
   (borg-initialize))
 
+(use-package bqn-mode)
+
 (use-package agda-input
   :hook (text-mode . (lambda () (set-input-method "Agda"))))
 

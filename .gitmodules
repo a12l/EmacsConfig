@@ -10,6 +10,9 @@
 [submodule "borg"]
 	path = lib/borg
 	url = git@github.com:a12l/borg.git
+[submodule "bqn-mode"]
+	path = lib/bqn-mode
+	url = git@github.com:a12l/bqn-mode
 [submodule "closql"]
 	path = lib/closql
 	url = git@github.com:a12l/closql.git
