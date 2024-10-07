@@ -80,6 +80,9 @@
 [submodule "markdown-mode"]
 	path = lib/markdown-mode
 	url = git@github.com:a12l/markdown-mode
+[submodule "nix-mode"]
+	path = lib/nix-mode
+	url = git@github.com:a12l/nix-mode
 [submodule "pfuture"]
 	path = lib/pfuture
 	url = git@github.com:a12l/pfuture

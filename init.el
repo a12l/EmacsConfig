@@ -64,6 +64,9 @@
 (use-package lsp-treemacs
   :commands lsp-treemacs-errors-list)
 
+(use-package nix-mode
+  :mode "\\.nix\\'")
+
 (use-package wakib-keys
   :config
   (wakib-keys 1)
