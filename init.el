@@ -33,6 +33,9 @@
   (setopt initial-scratch-message nil)
   (setopt cursor-type 'bar)
   (setopt make-backup-files nil)
+  (set-frame-font "Pragmatapro Liga 14" nil t)
+  (global-hl-line-mode 1)
+  (set-face-font 'hl-line "PragmataPro Mono 14")
   (auto-save-mode -1)
   (auto-save-visited-mode 1)
   (menu-bar-mode -1)
@@ -42,6 +45,11 @@
 
 (use-package flycheck
   :hook (prog-mode . flycheck-mode))
+
+(use-package ligature
+  :hook (after-init . global-ligature-mode)
+  :config
+  (ligature-pragmatapro-setup))
 
 (use-package lsp-haskell
   :hook (haskell-mode . lsp-deferred))

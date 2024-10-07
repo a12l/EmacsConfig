@@ -53,6 +53,12 @@
 [submodule "hydra"]
 	path = lib/hydra
 	url = git@github.com:a12l/hydra
+[submodule "ligature"]
+	path = lib/ligature
+	url = git@github.com:a12l/ligature.el
+[submodule "ligature-pragmatapro"]
+	path = lib/ligature-pragmatapro
+	url = git@gitlab.com:a12l/ligature-pragmatapro.el
 [submodule "llama"]
 	path = lib/llama
 	url = git@github.com:a12l/llama.git
