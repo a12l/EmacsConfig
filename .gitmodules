@@ -1,6 +1,13 @@
 [submodule "agda2-mode"]
 	path = lib/agda2-mode
 	url = git@github.com:a12l/agda2-mode.git
+	no-byte-compile = agda2.el
+	no-byte-compile = agda2-abbrevs.el
+	no-byte-compile = agda2-highlight.el
+	no-byte-compile = agda2-mode.el
+	no-byte-compile = agda2-queue.el
+	no-byte-compile = annotation.el
+	no-byte-compile = eri.el
 [submodule "auto-compile"]
 	path = lib/auto-compile
 	url = git@github.com:a12l/auto-compile
@@ -41,9 +48,6 @@
 [submodule "f"]
 	path = lib/f
 	url = git@github.com:a12l/f.el
-[submodule "filladapt"]
-	path = lib/filladapt
-	url = git@github.com:a12l/filladapt.git
 [submodule "flycheck"]
 	path = lib/flycheck
 	url = git@github.com:a12l/flycheck
