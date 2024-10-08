@@ -113,6 +113,9 @@
 	url = git@github.com:a12l/treemacs
 	load-path = src/elisp
 	load-path = src/extra
+[submodule "vundo"]
+	path = lib/vundo
+	url = git@github.com:a12l/vundo
 [submodule "wakib-keys"]
 	path = lib/wakib-keys
 	url = git@github.com:a12l/wakib-keys

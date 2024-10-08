@@ -73,6 +73,10 @@
   :config
   (setq org-support-shift-select 'always))
 
+(use-package vundo
+  :init
+  (setq vundo-glyph-alist vundo-unicode-symbols))
+
 (use-package wakib-keys
   :config
   (wakib-keys 1)
